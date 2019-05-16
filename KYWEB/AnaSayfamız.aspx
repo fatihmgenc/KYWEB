@@ -20,7 +20,7 @@
             <div class="arama">
                 <asp:TextBox id="textBoxArama" CssClass="TxtArama" runat="server" />
             </div>
-
+            
         </div>
     </form>
     
