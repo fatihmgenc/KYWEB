@@ -5,8 +5,10 @@
 
 
 * {
-    margin: 0;
-    border: 0;
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    margin: 0 0 0 0px;
     padding: 0;
 }
 
@@ -71,4 +73,51 @@ header {
         background-color:darkorange;
         color:white;
     }
-  
+
+.Urunlerimiz{
+    width:100%;
+    height:28px;
+}
+
+.Urunlerimiz #EkmekArasi{
+    
+    padding-top:2%;
+    width:80%;
+    height:136%;
+    vertical-align:central;
+    border-top:2px solid darkorange;
+}
+
+.Urunlerimiz #EkmekArasiIcerik {
+    padding-top:1%;
+    width: 85%;
+    height: 657%;
+}
+    .Urunlerimiz #EkmekArasiIcerik #EkmekArasiIcerikResim {
+        height: 180px; 
+        width: 315px
+    }
+    .Urunlerimiz #EkmekArasiIcerik #EkmekArasiIcerikSelect {
+    
+    }
+    .Urunlerimiz #SalataIcerik {
+        padding-top: 1%;
+        width: 85%;
+        height: 657%;
+    }
+
+    .Urunlerimiz #SalataSelect #SalataImg {
+        height: 180px;
+        width: 315px;
+    }
+
+    .Urunlerimiz #SalataIcerik #SalataSelect {
+    }
+.SepeteEkleBtn{
+    color:white;
+    background-color:darkorange;
+}
+#AltKisimİmg {
+    height: auto;
+    width:auto;
+}
