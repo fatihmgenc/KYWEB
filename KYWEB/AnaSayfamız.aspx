@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head runat="server">
-    <title>GorselEgitim</title>
+    <title>Favori Ürünlerimiz</title>
     <link href="Style.css" rel="stylesheet" />
     <style type="text/css">
         #SalataImg {
