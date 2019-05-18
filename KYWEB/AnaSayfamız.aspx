@@ -51,16 +51,9 @@
             <div id="EkmekArasiIcerik">
 
              <img id="EkmekArasiIcerikResim" src="https://www.kofteciyusuf.com/uploads/pictures/dsc5006_21.03.2015_12_01_33.jpg"  />
-             
-             <select id="EkmekArasiIcerikSelect" >
-             <option value="kofte">Köfte</option>
-             <option value="sucuk">Sucuk</option>
-             <option value="tavuk">Tavuk</option>
-             <option value="kuzu">Kuzu</option>
-
-
-             </select>
-            <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" Height="16px" Width="146px"/><br />
+             <asp:DropDownList ID="EKDropDownListil" runat="server" AutoPostBack="false" OnSelectedIndexChanged="EKDropDownListil_SelectedIndexChanged">
+             </asp:DropDownList>
+            <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" Height="16px" Width="146px" /><br />
 
             </div>
             <div id="Salatadiv">  
@@ -70,13 +63,8 @@
 
              <img id="SalataImg" src="https://www.kofteciyusuf.com/uploads/pictures/salata_23.05.2015_08_21_15.jpg"  />
              
-             <select id="SalataSelect" >
-
-             <option value="DubleSalata">İki Porsiyon Salata</option>
-             <option value="NSalata">Normal Porsiyon Salata</option>
-             <option value="Ysalata">Yarım Porsiyon Salata</option>
-       
-             </select>
+              <asp:DropDownList ID="SalataDropDownList" runat="server"  AutoPostBack="false">
+             </asp:DropDownList>
              <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" Height="16px" Width="146px"/>
 
 
@@ -88,13 +76,9 @@
 
              <img id="TrileceImg" src="https://www.kofteciyusuf.com/uploads/pictures/dsc1739_29.12.2016_12_00_36.jpg"  />
              
-             <select id="TrileceSelect" >
+             <asp:DropDownList ID="TrileceDropDownList" runat="server"  AutoPostBack="false">
+             </asp:DropDownList>
 
-             <option value="DubleTrilece">İki Porsiyon Trileçe</option>
-             <option value="NTrilece">Normal Porsiyon Trileçe</option>
-             <option value="YTrilece">Yarım Porsiyon Trileçe</option>
-       
-             </select>
              <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" Height="16px" Width="146px"/><br />
 
 
@@ -107,17 +91,13 @@
 
              <img id="AyranImg" src="https://www.kofteciyusuf.com/uploads/pictures/dsc1640_25.05.2015_10_37_20.jpg"  />
              
-             <select id="AyanSelect" >
-
-             <option value="LitreAyran">Litrelik Ayran</option>
-             <option value="BardakAyra">Bardak Ayran</option>
-            
-       
-             </select>
+            <asp:DropDownList ID="AyranDropDownList" runat="server"  AutoPostBack="false">
+             </asp:DropDownList>
              <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" Height="16px" Width="146px"/><br />
             
                 
                  <img  id="AltKisimİmg" src="images/AltKısım.PNG" />
+
             </div>
 
             </div>  

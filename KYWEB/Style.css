@@ -8,14 +8,14 @@
     border-style: none;
     border-color: inherit;
     border-width: 0;
-    margin: 0 0 4px 0;
+    margin: 0 0 0 0px;
     padding: 0;
 }
 
 
 .wrapper {
     width: 90%;
-    height: 101%;
+    height: 90%;
     margin: 0 auto;
 }
 
@@ -125,65 +125,167 @@ header {
     width: auto;
 }
 
-#ToplamTutar {
-    width: 100%;
-    height: 34px;
-    float: left;
-    padding-top: 20px;
+#body {
+    background-color: #d5d5d5;
+    font-family: 'Trebuchet MS',Arial;
 }
 
-#textBoxTutar {
-    float: initial;
-    padding-left: 5%;
-    padding-top: 30px;
+
+* {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    margin: 0 0 0 0px;
+    padding: 0;
 }
 
-#SiparisNotlari {
-    width: 100%;
-    height: 104px;
-    float: left;
-    padding-top: 50px;
+
+.wrapper {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
 }
 
-#textBoxNot {
-    float: left;
-    padding-left: 5%;
-    padding-top: 50px;
+
+header {
+    width: auto;
+    height: 60px;
+    
+    background-color:  white;
+    text-align: center;
+    line-height: 60px;
 }
 
-#TeslimatAdresi {
-    width: 100%;
-    height: 87px;
-    float: left;
-    padding-top: 10px;
-}
 
-#textBoxAdres {
-    float: left;
-    padding-left: 5%;
-    padding-top: 10px;
-}
-
-#OdemeYap {
-    float:left;
-    padding-top: 10px;
-    height: 42px;
-}
-    #OdemeYap #radiobtn {
+    header  #logo {
         float: left;
-        width: 100%;
-        padding: 10px 0;
+        width: 25%;
+        height: 60px;
+        color:white;
+        text-align: center;
+        line-height: 60px;
+        background-color: darkorange;
+        
+    }
+    header #MenuIconu {
+        width: 45%;
+        height: 60px;
+        float: right;
+    }
+  
+
+
+.arama {
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+}
+
+    .arama #textBoxArama {
+        width: 50%;
+        height: 30px;
+        float: left;
+        padding-left:5%;
+
+    }
+    .arama #aramaBtn {
+        width: 25%;
+        height: 30px;
+        float: left;
+        border-left:1px solid darkorange;
+    }
+    .arama #SepetimBtn{
+        width:20%;
+        height:30px;
+        background-color:darkorange;
+        color:white;
     }
 
-
-
-#radiolar {
-    float: left;
-    padding-left: 5%;
-    padding-top: 30px;
+.Urunlerimiz{
+    width:100%;
+    height:28px;
 }
 
-
-.formtitle {
-    float:left;
+.Urunlerimiz #EkmekArasi{
+    
+    padding-top:2%;
+    width:80%;
+    height:136%;
+    vertical-align:central;
+    border-top:2px solid darkorange;
 }
+
+.Urunlerimiz #EkmekArasiIcerik {
+    padding-top:1%;
+    width: 85%;
+    height: 657%;
+}
+    .Urunlerimiz #EkmekArasiIcerik #EkmekArasiIcerikResim {
+        height: 180px; 
+        width: 315px
+    }
+ 
+    .Urunlerimiz #SalataIcerik {
+        padding-top: 1%;
+        width: 85%;
+        height: 657%;
+    }
+
+    .Urunlerimiz #SalataSelect #SalataImg {
+        height: 180px;
+        width: 315px;
+    }
+
+    
+.SepeteEkleBtn{
+    color:white;
+    background-color:darkorange;
+}
+#AltKisimİmg {
+    height: auto;
+    width:auto;
+}
+.SepettekiUrunler{
+    height:300px;
+    width:auto;
+    background-color:burlywood;
+}
+    .SepettekiUrunler #ToplamTutarDiv {
+        height: 100px;
+        width: auto;
+        padding-top:20px;
+    }
+
+    .SepettekiUrunler #ToplamTutarDiv #TutarLabel {
+        padding-left: 20px;
+        padding-top: 20px;
+        color: red;
+        font-size:xx-large;
+    }
+
+    .SepettekiUrunler #SepetIcerikDiv {
+        height: 200px;
+        width: auto;
+    }
+
+    .SepettekiUrunler #SepetIcerikDiv #IcerikLbl {
+        padding-left: 20px;
+        padding-top: 20px;
+        color: red;
+        font-size:x-large;
+    }
+
+#OnayButonu1{
+    
+    height:60px;
+    width:400px;
+    background-color:brown;
+}
+
+    #OnayButonu1 #SepetDevamBtn {
+        padding: 5px;
+        Width :395px;
+        height:60px;
+        background-color: darkorange;
+        color: white;
+    }
