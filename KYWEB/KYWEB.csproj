@@ -73,6 +73,7 @@
     <Content Include="SepetOnaylamaSayfası.aspx" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
+    <Content Include="OdemeYap.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnaSayfamız.aspx.cs">
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="SepetOnaylamaSayfası.aspx.designer.cs">
       <DependentUpon>SepetOnaylamaSayfası.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OdemeYap.aspx.cs">
+      <DependentUpon>OdemeYap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OdemeYap.aspx.designer.cs">
+      <DependentUpon>OdemeYap.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
