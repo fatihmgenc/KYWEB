@@ -70,6 +70,7 @@
     <Content Include="AnaSayfamız.aspx" />
     <Content Include="images\AltKısım.PNG" />
     <Content Include="images\MenuButtun.PNG" />
+    <Content Include="SepetOnaylamaSayfası.aspx" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -82,6 +83,13 @@
       <DependentUpon>AnaSayfamız.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SepetOnaylamaSayfası.aspx.cs">
+      <DependentUpon>SepetOnaylamaSayfası.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SepetOnaylamaSayfası.aspx.designer.cs">
+      <DependentUpon>SepetOnaylamaSayfası.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

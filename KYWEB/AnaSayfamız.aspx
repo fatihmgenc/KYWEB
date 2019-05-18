@@ -86,7 +86,7 @@
             </div>
             <div id="TrileceIcerik">
 
-             <img id="TrileceImg" src="https://www.kofteciyusuf.com/uploads/pictures/salata_23.05.2015_08_21_15.jpg"  />
+             <img id="TrileceImg" src="https://www.kofteciyusuf.com/uploads/pictures/dsc1739_29.12.2016_12_00_36.jpg"  />
              
              <select id="TrileceSelect" >
 
