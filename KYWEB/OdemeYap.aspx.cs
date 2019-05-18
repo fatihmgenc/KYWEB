@@ -13,5 +13,10 @@ namespace KYWEB
         {
 
         }
+
+        protected void KapıdaNakit_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
