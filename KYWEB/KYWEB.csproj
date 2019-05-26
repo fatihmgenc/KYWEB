@@ -68,11 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfamız.aspx" />
+    <Content Include="GirisYapma.aspx" />
     <Content Include="images\AltKısım.PNG" />
     <Content Include="images\MenuButtun.PNG" />
     <Content Include="KrediKartıÖdeme.aspx" />
     <Content Include="SepetOnaylamaSayfası.aspx" />
     <Content Include="StyleKY.css" />
+    <Content Include="UyeOlma.aspx" />
     <Content Include="Web.config" />
     <Content Include="OdemeYap.aspx" />
   </ItemGroup>
@@ -83,6 +85,12 @@
     </Compile>
     <Compile Include="AnaSayfamız.aspx.designer.cs">
       <DependentUpon>AnaSayfamız.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GirisYapma.aspx.cs">
+      <DependentUpon>GirisYapma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GirisYapma.aspx.designer.cs">
+      <DependentUpon>GirisYapma.aspx</DependentUpon>
     </Compile>
     <Compile Include="KrediKartıÖdeme.aspx.cs">
       <DependentUpon>KrediKartıÖdeme.aspx</DependentUpon>
@@ -105,6 +113,12 @@
     </Compile>
     <Compile Include="OdemeYap.aspx.designer.cs">
       <DependentUpon>OdemeYap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeOlma.aspx.cs">
+      <DependentUpon>UyeOlma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeOlma.aspx.designer.cs">
+      <DependentUpon>UyeOlma.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
