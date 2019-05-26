@@ -10,7 +10,7 @@
     <link href="Foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
     <title>Favori Ürünlerimiz</title>
     <link href="StyleKY.css" rel="stylesheet" />
-
+    
 </head>
 
 <body>

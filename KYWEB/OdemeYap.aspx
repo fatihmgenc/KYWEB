@@ -2,32 +2,35 @@
 
 <!DOCTYPE html>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
      <script src="Foundation/js/foundation.min.js" type="text/javascript"></script>  
     <link href="Foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />  
+    <link href="StyleKY.css" rel="stylesheet" />
+    <title>Odeme Sayfasi</title>
   
-    <title></title>
-    <style type="text/css">
-        #form1 {
-            height: 93px;
-        }
-    </style>
 </head>
 <body> 
     <form id="form1" runat="server">
-        <div class="wrapper" >
-            <header>
+        
+                <header>
 
-                <div id="logo" class="row">
-                    Köfteci Yusuf
+                <div id="UstKısım" class ="row">
+
+
+                <div id="logo">
+                     <img id="logoImg" src="https://www.kofteciyusuf.com/assets/img/header-logo.png"  />
                 </div>
-                <div id ="MenuIconu" class="row">
-                    <img src="images/MenuButtun.PNG"
-                        />
-                </div>
+
+            
+
+                    </div>
+
             </header>
-            <div class="row">
+
+           <div id="aramaKısmı" class="row" >
                 <asp:TextBox  id="textBoxArama"  CssClass="TxtArama" runat="server" placeholder="Arama" />
                 <asp:Button ID="aramaBtn" CssClass="btnArama" Text="Ara" runat="server" />
                 <asp:Button ID="SepetimBtn" CssClass="SepetimBtn" Text="Sepetim" runat="server" />
@@ -36,26 +39,28 @@
 
        <div id="ToplamTutar" class="row">  
                <span class="formtitle">Toplam Tutar:</span> 
-           <asp:TextBox ID="textBoxTutar" CssClass="txtTutar" runat="server" Enabled="false" Height="16px" />
+           <asp:TextBox ID="textBoxTutar" CssClass="txtTutar" runat="server" Enabled="false"  />
             </div>
             
         <div id="SiparisNotlari" class="row">
-              <span class="formtitle">Sipariş Notları:</span>
-            <asp:TextBox ID="textBoxNot" CssClass="txtNot" runat="server" Width="472px" />
+              
+            <span class="formtitle">Sipariş Notları:</span>
+            <asp:TextBox ID="textBoxNot" CssClass="txtNot" runat="server"  />
 
 
         </div>
 
          <div id="TeslimatAdresi" class="row">
+             
              <span class="formtitle">Teslimat Adresi:</span>
-            <asp:TextBox ID="textBoxAdres" CssClass="txtAdres" runat="server" Width="472px" />
+            <asp:TextBox ID="textBoxAdres" CssClass="txtAdres" runat="server"  />
 
 
         </div>
 
   
-
-           <asp:DropDownList ID="OdemeDropDownList" runat="server"  AutoPostBack="false">
+           <div id="OdemeDropDownList" class="row">
+                <asp:DropDownList ID="DropDownList1" runat="server"  AutoPostBack="false">
 
                 <asp:ListItem Selected="True" Value="ODEMETURU"> ÖDEME TÜRÜNÜ SEÇİNİZ </asp:ListItem>
                   <asp:ListItem Value="KAPIDANAKAKİT"> KAPIDA NAKİT </asp:ListItem>
@@ -68,18 +73,22 @@
                   <asp:ListItem Value="WINWIN"> WIN WIN (KUPON) </asp:ListItem>
                   <asp:ListItem Value="METROPOLCARD"> METROPOL CARD </asp:ListItem>
              </asp:DropDownList>
+           </div>
+          
              
-
+         <div id="AltKisimDiv" class ="row">
+                        <img src="images/AltKısım.PNG" />
+                    </div>
              
 
        
         
-             </div>
+           
       
             
            
        
     </form>
     
-</body>
+    </body>
 </html>

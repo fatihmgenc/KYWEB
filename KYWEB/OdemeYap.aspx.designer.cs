@@ -76,12 +76,12 @@ namespace KYWEB {
         protected global::System.Web.UI.WebControls.TextBox textBoxAdres;
         
         /// <summary>
-        /// OdemeDropDownList control.
+        /// DropDownList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList OdemeDropDownList;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
     }
 }
