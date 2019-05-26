@@ -1,39 +1,31 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="KrediKartıOdeme.aspx.cs" Inherits="KYWEB.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="KrediKartıÖdeme.aspx.cs" Inherits="KYWEB.KrediKartıÖdeme" %>
 
 <!DOCTYPE html>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
      <script src="Foundation/js/foundation.min.js" type="text/javascript"></script>  
     <link href="Foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />  
-
-    <title></title>
-    <style type="text/css">
-        #form1 {
-            height: 93px;
-        }
-    </style>
+    <link href="StyleKY.css" rel="stylesheet" />
+    <title>KKOdeme</title>
+  
 </head>
 <body> 
     <form id="form1" runat="server">
-        <div class="wrapper" >
-             <header>
+            <header>
 
-                <div id="logo" class="row">
-                    Köfteci Yusuf
+                <div id="UstKısım" class ="row">
+
+
+                <div id="logo">
+                     <img id="logoImg" src="https://www.kofteciyusuf.com/assets/img/header-logo.png"  />
                 </div>
-                <div id ="MenuIconu" class="row">
-                    <img src="images/MenuButtun.PNG"
-                        />
-                </div>
+
+            
+
+                    </div>
+
             </header>
-            <div class="row">
-                <asp:TextBox  id="textBoxArama"  CssClass="TxtArama" runat="server" placeholder="Arama" />
-                <asp:Button ID="aramaBtn" CssClass="btnArama" Text="Ara" runat="server" />
-                <asp:Button ID="SepetimBtn" CssClass="SepetimBtn" Text="Sepetim" runat="server" />
-                
-            </div>
-            </div>
 
          <div id="KartNo" class="row">  
                <span class="formtitle">16 HANELİ KREDİ KARTI NUMARANIZI GİRİNİZ:</span> 
@@ -48,7 +40,9 @@
                 <asp:Button ID="SIPARISTAMAMLA"  Text="SİPARİŞİ TAMAMLA" runat="server" />
                 
             </div>
-      
+        <div id="AltKisimDiv" class ="row">
+                        <img src="images/AltKısım.PNG" />
+                    </div>
     </form>
 </body>
 </html>

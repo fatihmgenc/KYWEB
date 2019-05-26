@@ -10,7 +10,7 @@
 namespace KYWEB {
     
     
-    public partial class WebForm2 {
+    public partial class KrediKartıÖdeme {
         
         /// <summary>
         /// form1 control.
@@ -20,33 +20,6 @@ namespace KYWEB {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// textBoxArama control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxArama;
-        
-        /// <summary>
-        /// aramaBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button aramaBtn;
-        
-        /// <summary>
-        /// SepetimBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SepetimBtn;
         
         /// <summary>
         /// textBoxTutar control.
