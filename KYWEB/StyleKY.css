@@ -111,14 +111,40 @@
     padding-top:3%;
     padding-left:5%;
     padding-right:5%;
+    font-size:smaller;
 }
 
 #KartPW {
     padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
+    font-size:smaller;
 }
 
-#SepetDevamBtn {
-    background-color: darkorange;
+#ToplamTutar {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#SiparisNotlari {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#TeslimatAdresi {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#OdemeDropDownList {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#AltKisimDiv{
+    padding-top: 7%;
 }
