@@ -71,7 +71,7 @@
     <Content Include="images\AltKısım.PNG" />
     <Content Include="images\MenuButtun.PNG" />
     <Content Include="SepetOnaylamaSayfası.aspx" />
-    <Content Include="Style.css" />
+    <Content Include="StyleKY.css" />
     <Content Include="Web.config" />
     <Content Include="OdemeYap.aspx" />
   </ItemGroup>

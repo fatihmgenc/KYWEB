@@ -1,0 +1,51 @@
+﻿body {
+    background-color:white;
+}
+
+#UstKısım{
+    height:120px;
+}
+#logo {
+    height: 100%;
+    color: white;
+    background-color: orange;
+    font-size:xx-large;
+    text-align:center;
+    
+}
+.SepeteEkleBtn{
+    background-color:orange;
+}
+#aramaKısmı {
+    padding-top:1%;
+    height: 150px;
+    padding-bottom:1%
+}
+
+    #aramaKısmı #textBoxArama {
+      
+        padding-left: 5%;      
+        width: 90%;
+        vertical-align: central;
+        height: 50%;
+        background-color: navajowhite;
+    }
+
+
+    #aramaKısmı #aramaBtn {
+        padding-left:5%;
+        width:40%;
+        vertical-align:central;
+        height: 40% ;
+        background-color: darkorange
+    }
+
+    #aramaKısmı #SepetimBtn {
+        padding-right: 5%;
+        float:right;
+        width: 40%;
+        vertical-align: central;
+        height: 40%;
+        background-color: darkorange
+    }
+
