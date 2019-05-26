@@ -89,5 +89,32 @@
     height: 65px;
 }
 
+#SIPARISTAMAMLADIV{
+    padding-left: 18%;
+    height:50px;
+    padding-top:1%
+}
 
+#SIPARISTAMAMLADIV #SIPARISTAMAMLA {
+   
+    width: 80%;
+    vertical-align: central;
+    height: 100%;
+    background-color: darkorange
+}
 
+#AltKisimDiv {
+    padding-top: 7%;
+}
+
+#KartNo{
+    padding-top:3%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+#KartPW {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}

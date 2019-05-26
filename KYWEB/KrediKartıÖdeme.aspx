@@ -35,9 +35,9 @@
                <span class="formtitle">KREDİ KARTI ŞİFRENİZİ GİRİNİZ:</span> 
            <asp:TextBox ID="txtBox1" TextMode="Password" runat="server" />
             </div>
-        <div class="row">
+        <div id="SIPARISTAMAMLADIV"class="row">
                 
-                <asp:Button ID="SIPARISTAMAMLA"  Text="SİPARİŞİ TAMAMLA" runat="server" />
+                <asp:Button ID="SIPARISTAMAMLA" class="row" Text="SİPARİŞİ TAMAMLA" runat="server" />
                 
             </div>
         <div id="AltKisimDiv" class ="row">
