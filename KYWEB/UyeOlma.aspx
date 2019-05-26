@@ -1,31 +1,48 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UyeOlma.aspx.cs" Inherits="KYWEB.UyeGirisi" %>
 
 <!DOCTYPE html>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="Style.css" rel="stylesheet" />
-    <title></title>
-  
+    
     <script src="Foundation/js/foundation.min.js" type="text/javascript"></script>  
-    <link href="Foundation/css/foundation.min.css" rel="stylesheet" type="text/css" /> 
-
+    <link href="Foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
+    <link href="StyleKY.css" rel="stylesheet" />
+    <title>Favori Ürünlerimiz</title>
+   
+    
 </head>
-<body>
+    <body>
     
 
-     <div class="uyeOl"> 
-                
-                                <img  id="uyeOlrsm" src="images/UyeOl.PNG" />
-           </div>
+     
 
 
     <form id="form2" runat="server">  
+         <header>
+
+                <div id="UstKısım" class ="row">
+
+
+                <div id="logo">
+                     <img id="logoImg" src="https://www.kofteciyusuf.com/assets/img/header-logo.png"  />
+                </div>
+
+            
+
+                    </div>
+
+            </header>
     <br /><br />  
     <div class="row" style="border:2px solid white">  
     <div class="large-12 columns">  
      <br /><br />  
       
+        <div class="row" style="padding-bottom:25px;"> 
+                
+        <img  id="uyeOlrsm" src="images/UyeOl.PNG" style="width:100%;   "  />
+           </div>
+
      <div class="row">  
    <div class="large-12 columns">  
    
@@ -140,9 +157,9 @@
     </div>
    
       <br /><br />
-     <div class="row">  
-   <div class="large-6 columns">  
-   <asp:Button ID="btnGirisYap" runat="server" Text="ÜYELİK TANIMLA"></asp:Button>  
+     <div id="UyeOlButonDiv"class="row">  
+   <div class="large-6 columns" style="padding-bottom:25px">  
+   <asp:Button ID="UyelikTanimlaBTN" runat="server" Text="ÜYELİK TANIMLA"  style="background-color:darkorange"></asp:Button>  
     </div>  
   
          <div class="uyeOl"> 

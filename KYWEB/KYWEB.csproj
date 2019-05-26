@@ -70,7 +70,9 @@
     <Content Include="AnaSayfamız.aspx" />
     <Content Include="GirisYapma.aspx" />
     <Content Include="images\AltKısım.PNG" />
+    <Content Include="images\GirisYap.PNG" />
     <Content Include="images\MenuButtun.PNG" />
+    <Content Include="images\UyeOl.PNG" />
     <Content Include="KrediKartıÖdeme.aspx" />
     <Content Include="SepetOnaylamaSayfası.aspx" />
     <Content Include="StyleKY.css" />
@@ -88,6 +90,7 @@
     </Compile>
     <Compile Include="GirisYapma.aspx.cs">
       <DependentUpon>GirisYapma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="GirisYapma.aspx.designer.cs">
       <DependentUpon>GirisYapma.aspx</DependentUpon>
@@ -116,6 +119,7 @@
     </Compile>
     <Compile Include="UyeOlma.aspx.cs">
       <DependentUpon>UyeOlma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UyeOlma.aspx.designer.cs">
       <DependentUpon>UyeOlma.aspx</DependentUpon>

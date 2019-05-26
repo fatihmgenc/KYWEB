@@ -148,12 +148,12 @@ namespace KYWEB {
         protected global::System.Web.UI.WebControls.TextBox DaireNo;
         
         /// <summary>
-        /// btnGirisYap control.
+        /// UyelikTanimlaBTN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGirisYap;
+        protected global::System.Web.UI.WebControls.Button UyelikTanimlaBTN;
     }
 }
