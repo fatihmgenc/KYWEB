@@ -70,6 +70,7 @@
     <Content Include="AnaSayfamız.aspx" />
     <Content Include="images\AltKısım.PNG" />
     <Content Include="images\MenuButtun.PNG" />
+    <Content Include="KrediKartıÖdeme.aspx" />
     <Content Include="SepetOnaylamaSayfası.aspx" />
     <Content Include="StyleKY.css" />
     <Content Include="Web.config" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="AnaSayfamız.aspx.designer.cs">
       <DependentUpon>AnaSayfamız.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KrediKartıÖdeme.aspx.cs">
+      <DependentUpon>KrediKartıÖdeme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KrediKartıÖdeme.aspx.designer.cs">
+      <DependentUpon>KrediKartıÖdeme.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SepetOnaylamaSayfası.aspx.cs">

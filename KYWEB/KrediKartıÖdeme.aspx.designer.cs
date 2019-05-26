@@ -10,7 +10,7 @@
 namespace KYWEB {
     
     
-    public partial class WebForm1 {
+    public partial class WebForm2 {
         
         /// <summary>
         /// form1 control.
@@ -58,30 +58,21 @@ namespace KYWEB {
         protected global::System.Web.UI.WebControls.TextBox textBoxTutar;
         
         /// <summary>
-        /// textBoxNot control.
+        /// txtBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxNot;
+        protected global::System.Web.UI.WebControls.TextBox txtBox1;
         
         /// <summary>
-        /// textBoxAdres control.
+        /// SIPARISTAMAMLA control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxAdres;
-        
-        /// <summary>
-        /// OdemeDropDownList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList OdemeDropDownList;
+        protected global::System.Web.UI.WebControls.Button SIPARISTAMAMLA;
     }
 }
