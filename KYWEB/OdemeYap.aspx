@@ -17,7 +17,7 @@
         
                 <header>
 
-                <div id="UstKısım" class ="row">
+                 <div id="UstKısım" class ="row">
 
 
                 <div id="logo">
@@ -27,6 +27,10 @@
             
 
                     </div>
+
+            
+
+                    
 
             </header>
 
@@ -74,11 +78,11 @@
                   <asp:ListItem Value="METROPOLCARD"> METROPOL CARD </asp:ListItem>
              </asp:DropDownList>
            </div>
-          <div id="IlerleDiv" class="row" >
+        
+        <div id="IlerleDiv" class="row">
+            <asp:Button ID="IlerleButon" CssClass="btnIlerle" Text="İLERİ" runat="server" />
 
-              <asp:button ID="IlerleBtn" text = "Ilerle"  runat="server" OnClick="IlerleBtn_Click"> </asp:button>
-
-          </div>
+        </div>
              
          <div id="AltKisimDiv" class ="row">
                         <img src="images/AltKısım.PNG" />
