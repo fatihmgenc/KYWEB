@@ -9,8 +9,12 @@ namespace KYWEB
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
+        VeriClass veriClass = VeriClass.getKullanıcıVerileri();
+
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            textBoxTutar.Text = veriClass.sepetTutari.ToString() + "  TL";
 
         }
 

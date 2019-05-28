@@ -2,22 +2,26 @@
     background-color:white;
 }
 
+
 #UstKısım{
     height:120px;
 }
+
+
 #logo {
     height: 100%;
     color: white;
     background-color: orange;
     font-size:xx-large;
     text-align:center;
-    
 }
+
 .SepeteEkleBtn{
     background-color:orange;
     height:90%;
     vertical-align:central;
 }
+
 #aramaKısmı {
     padding-top:1%;
     height: 150px;

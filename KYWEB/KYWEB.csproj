@@ -132,6 +132,7 @@
     <Compile Include="UyeOlma.aspx.designer.cs">
       <DependentUpon>UyeOlma.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VeriClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

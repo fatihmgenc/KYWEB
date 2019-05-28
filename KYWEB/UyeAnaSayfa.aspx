@@ -37,7 +37,7 @@
                 <asp:TextBox  id="textBoxArama"  CssClass="TxtArama" runat="server" placeholder="Arama" />
                 <asp:Button ID="aramaBtn" CssClass="btnArama" Text="Ara" runat="server" />
                 <asp:Button ID="SepetimBtn" CssClass="SepetimBtn" Text="Sepetim" runat="server" OnClick="SepetimBtn_Click" />
-                
+                </div>
             
 
             <div class="Urunlerimiz">
@@ -52,11 +52,11 @@
             
                 
                 <div id="EKDropDownListilDiv" class="row">
-                    <asp:DropDownList ID="EKDropDownListil" runat="server" AutoPostBack="false" OnSelectedIndexChanged="EKDropDownListil_SelectedIndexChanged"></asp:DropDownList>
+                    <asp:DropDownList ID="EKDropDownListil" runat="server" AutoPostBack="True" OnSelectedIndexChanged="EKDropDownListil_SelectedIndexChanged"></asp:DropDownList>
                 </div>
 
                 <div id="SepeteEkleBtnDiv" class="row">
-                    <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle"  />
+                    <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" OnClick="SepeteEkleEkmek_Click"  />
                 </div>
             
             
@@ -72,11 +72,11 @@
                 </div>   
              
                 <div id="SalataDropDownListDiv" class="row">
-                    <asp:DropDownList ID="SalataDropDownList" runat="server"  AutoPostBack="false"></asp:DropDownList>
+                    <asp:DropDownList ID="SalataDropDownList" runat="server"  AutoPostBack="True"></asp:DropDownList>
                 </div>
                 
                 <div id="SepeteEkleBtnDiv2" class="row" >
-                    <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" />
+                    <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle"  OnClick="SepeteEkleSalata_Click" />
                 </div>
             
 
@@ -93,13 +93,13 @@
 
                 <div id="TrileceDropDownListDiv" class="row">
 
-                    <asp:DropDownList ID="TrileceDropDownList" runat="server"  AutoPostBack="false"> </asp:DropDownList>
+                    <asp:DropDownList ID="TrileceDropDownList" runat="server"  AutoPostBack="True"> </asp:DropDownList>
 
                 </div>
 
 
                 <div id="SepeteEkleBtnDiv3" class="row" >
-                    <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" />
+                    <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" OnClick="SepeteEkleTrilece_Click" />
                 </div>
 
 
@@ -114,13 +114,13 @@
                     </div>
                 
                     <div id="AyranDropDownListDiv" class="row">
-                         <asp:DropDownList ID="AyranDropDownList" runat="server"  AutoPostBack="false"> </asp:DropDownList>
+                         <asp:DropDownList ID="AyranDropDownList" runat="server"  AutoPostBack="True"> </asp:DropDownList>
 
                     </div>
                     
                     
                       <div id="SepeteEkleBtnDiv4" class="row" >
-                    <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" />
+                    <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" OnClick="SepeteEkleAyran_Click" />
                     </div>
                     <div id="AltKisimDiv" class ="row">
                         <img src="images/AltKısım.PNG" />
