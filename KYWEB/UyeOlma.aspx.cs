@@ -13,5 +13,10 @@ namespace KYWEB
         {
 
         }
+
+        protected void UyelikTanimlaBTN_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UyeAnaSayfa.aspx");
+        }
     }
 }

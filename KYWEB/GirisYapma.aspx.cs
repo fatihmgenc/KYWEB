@@ -13,5 +13,10 @@ namespace KYWEB
         {
 
         }
+
+        protected void btnGirisYap_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UyeAnaSayfa.aspx");
+        }
     }
 }

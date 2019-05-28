@@ -80,7 +80,7 @@
    
          <div class="row">  
    <div class="large-6 columns" style="padding-bottom:100px">  
-   <asp:Button ID="btnGirisYap" runat="server" Text="Giriş Yap" style=" background-color:darkorange; width:35%; height:80%; " ></asp:Button>  
+   <asp:Button ID="btnGirisYap" runat="server" Text="Giriş Yap" style=" background-color:darkorange; width:35%; height:80%; " OnClick="btnGirisYap_Click" ></asp:Button>  
     </div>  
   
          <div class="uyeOl"> 

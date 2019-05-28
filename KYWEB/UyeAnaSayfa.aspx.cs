@@ -7,10 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace KYWEB
 {
-    
-    public partial class AnaSayfamız : System.Web.UI.Page
+    public partial class UyeAnaSayfa : System.Web.UI.Page
     {
-        string[]  EKArasıList =
+        string[] EKArasıList =
         { "Köfte", "Sucuk","Kuzu şiş","Tavuk İncik"};
         string[] PorsiyonList = new string[]
         { "Duble Porsiyon","Normal Porsiyon","Yarım Porsiyon"};
@@ -34,11 +33,11 @@ namespace KYWEB
 
             AyranDropDownList.DataSource = IcecekList;
             AyranDropDownList.DataBind();
-            }
+        }
 
         protected void EKDropDownListil_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         protected void UyeOlBtn_Click(object sender, EventArgs e)
@@ -57,4 +56,4 @@ namespace KYWEB
         }
     }
 
-    }
+}

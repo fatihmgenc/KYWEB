@@ -159,7 +159,7 @@
       <br /><br />
      <div id="UyeOlButonDiv"class="row">  
    <div class="large-6 columns" style="padding-bottom:25px">  
-   <asp:Button ID="UyelikTanimlaBTN" runat="server" Text="ÜYELİK TANIMLA"  style="background-color:darkorange"></asp:Button>  
+   <asp:Button ID="UyelikTanimlaBTN" runat="server" Text="ÜYELİK TANIMLA"  style="background-color:darkorange" OnClick="UyelikTanimlaBTN_Click"></asp:Button>  
     </div>  
   
          <div class="uyeOl"> 

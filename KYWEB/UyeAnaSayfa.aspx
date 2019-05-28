@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AnaSayfamız.aspx.cs" Inherits="KYWEB.AnaSayfamız" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UyeAnaSayfa.aspx.cs" Inherits="KYWEB.UyeAnaSayfa" %>
 
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,13 +38,6 @@
                 <asp:Button ID="aramaBtn" CssClass="btnArama" Text="Ara" runat="server" />
                 <asp:Button ID="SepetimBtn" CssClass="SepetimBtn" Text="Sepetim" runat="server" OnClick="SepetimBtn_Click" />
                 
-            <div id="Uyelik" class="row">
-                
-                 <asp:Button ID="GirisYapBtn"  Text="Giris Yap" runat="server" OnClick="GirisYapBtn_Click" />
-                <asp:Button ID="UyeOlBtn"  Text="Uye Ol" runat="server" OnClick="UyeOlBtn_Click" />
-
-
-            </div>
             
 
             <div class="Urunlerimiz">

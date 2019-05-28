@@ -76,6 +76,7 @@
     <Content Include="KrediKartıÖdeme.aspx" />
     <Content Include="SepetOnaylamaSayfası.aspx" />
     <Content Include="StyleKY.css" />
+    <Content Include="UyeAnaSayfa.aspx" />
     <Content Include="UyeOlma.aspx" />
     <Content Include="Web.config" />
     <Content Include="OdemeYap.aspx" />
@@ -116,6 +117,13 @@
     </Compile>
     <Compile Include="OdemeYap.aspx.designer.cs">
       <DependentUpon>OdemeYap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeAnaSayfa.aspx.cs">
+      <DependentUpon>UyeAnaSayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeAnaSayfa.aspx.designer.cs">
+      <DependentUpon>UyeAnaSayfa.aspx</DependentUpon>
     </Compile>
     <Compile Include="UyeOlma.aspx.cs">
       <DependentUpon>UyeOlma.aspx</DependentUpon>

@@ -13,5 +13,10 @@ namespace KYWEB
         {
 
         }
+
+        protected void SepetDevamBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("OdemeYap.aspx");
+        }
     }
 }

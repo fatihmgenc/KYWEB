@@ -49,6 +49,24 @@ namespace KYWEB {
         protected global::System.Web.UI.WebControls.Button SepetimBtn;
         
         /// <summary>
+        /// GirisYapBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button GirisYapBtn;
+        
+        /// <summary>
+        /// UyeOlBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button UyeOlBtn;
+        
+        /// <summary>
         /// EKDropDownListil control.
         /// </summary>
         /// <remarks>

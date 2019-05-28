@@ -49,7 +49,7 @@
                
               </div>
                <div id="OnayButonu1" class="row">
-                   <asp:Button ID="SepetDevamBtn" text="Ödeme Sayfasına İlerle" runat="server"/>
+                   <asp:Button ID="SepetDevamBtn" text="Ödeme Sayfasına İlerle" runat="server" OnClick="SepetDevamBtn_Click"/>
 
                </div>
             

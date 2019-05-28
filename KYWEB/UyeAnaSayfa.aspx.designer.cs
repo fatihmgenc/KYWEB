@@ -10,7 +10,7 @@
 namespace KYWEB {
     
     
-    public partial class WebForm1 {
+    public partial class UyeAnaSayfa {
         
         /// <summary>
         /// form1 control.
@@ -49,48 +49,39 @@ namespace KYWEB {
         protected global::System.Web.UI.WebControls.Button SepetimBtn;
         
         /// <summary>
-        /// textBoxTutar control.
+        /// EKDropDownListil control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxTutar;
+        protected global::System.Web.UI.WebControls.DropDownList EKDropDownListil;
         
         /// <summary>
-        /// textBoxNot control.
+        /// SalataDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxNot;
+        protected global::System.Web.UI.WebControls.DropDownList SalataDropDownList;
         
         /// <summary>
-        /// textBoxAdres control.
+        /// TrileceDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxAdres;
+        protected global::System.Web.UI.WebControls.DropDownList TrileceDropDownList;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// AyranDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
-        /// <summary>
-        /// IlerleBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button IlerleBtn;
+        protected global::System.Web.UI.WebControls.DropDownList AyranDropDownList;
     }
 }

@@ -74,10 +74,15 @@
                   <asp:ListItem Value="METROPOLCARD"> METROPOL CARD </asp:ListItem>
              </asp:DropDownList>
            </div>
-          
+          <div id="IlerleDiv" class="row" >
+
+              <asp:button ID="IlerleBtn" text = "Ilerle"  runat="server" OnClick="IlerleBtn_Click"> </asp:button>
+
+          </div>
              
          <div id="AltKisimDiv" class ="row">
                         <img src="images/AltKısım.PNG" />
+                       
                     </div>
              
 

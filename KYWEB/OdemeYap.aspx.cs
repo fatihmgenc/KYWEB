@@ -18,5 +18,10 @@ namespace KYWEB
         {
 
         }
+
+        protected void IlerleBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("KrediKartıÖdeme.aspx");
+        }
     }
 }
