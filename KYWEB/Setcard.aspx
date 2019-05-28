@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="KrediKartıÖdeme.aspx.cs" Inherits="KYWEB.KrediKartıÖdeme" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Setcard.aspx.cs" Inherits="KYWEB.Sodexo" %>
 
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,13 +28,10 @@
             </header>
 
          <div id="KartNo" class="row">  
-               <span class="formtitle">16 HANELİ KREDİ KARTI NUMARANIZI GİRİNİZ:</span> 
+               <span class="formtitle">SETCARD KODUNUZU GİRİNİZ:</span> 
            <asp:TextBox ID="textBoxTutar" CssClass="txtTutar" runat="server" Enabled="true" />
             </div>
-                <div id="KartPW" class="row">  
-               <span class="formtitle">KREDİ KARTI ŞİFRENİZİ GİRİNİZ:</span> 
-           <asp:TextBox ID="txtBox1" TextMode="Password" runat="server" />
-            </div>
+                
         <div id="SIPARISTAMAMLADIV"class="row">
                 
                 <asp:Button ID="SIPARISTAMAMLA" class="row" Text="SİPARİŞİ TAMAMLA" runat="server" OnClick="SIPARISTAMAMLA_Click" />

@@ -23,9 +23,70 @@ namespace KYWEB
 
         }
 
-        protected void IlerleBtn_Click(object sender, EventArgs e)
+        private void MsgBox(string sMessage)
         {
-            Response.Redirect("KrediKartıÖdeme.aspx");
+            string msg = "<script language=\"javascript\">";
+            msg += "alert('" + sMessage + "');";
+            msg += "</script>";
+            Response.Write(msg);
+        }
+
+        protected void IlerleButon_Click(object sender, EventArgs e)
+        {
+            if (DropDownList1.SelectedValue == "ODEMETURU")
+            {
+                MsgBox("HERHANGİ BİR ÖDEME YÖNTEMİ SEÇMEDİNİZ LÜTFEN ÖDEME YÖNTEMİ SEÇİNİZ");
+
+            }
+
+            else if (DropDownList1.SelectedValue == "KAPIDANAKAKİT")
+            {
+                MsgBox("Siparişiniz Alındı Anasayfaya Yönlendiriliyorsunuz");
+
+                Response.Redirect("UyeAnaSayfa.aspx");
+            }
+
+            else if (DropDownList1.SelectedValue== "KREDİKARTI")
+            {
+                Response.Redirect("KrediKartıÖdeme.aspx");
+            }
+
+            else if(DropDownList1.SelectedValue== "MULTİNET")
+            {
+                Response.Redirect("Multinet.aspx");
+            }
+
+            else if (DropDownList1.SelectedValue == "SETCARD")
+            {
+                Response.Redirect("Setcard.aspx");
+            }
+
+            else if (DropDownList1.SelectedValue == "TICKETKUPON")
+            {
+                Response.Redirect("TicketKupon.aspx");
+            }
+
+            else if (DropDownList1.SelectedValue == "TICKETCARD")
+            {
+                Response.Redirect("TicketCard.aspx");
+            }
+
+            else if (DropDownList1.SelectedValue == "SODEXOKUPON")
+            {
+                Response.Redirect("Sodexo.aspx");
+            }
+
+            else if (DropDownList1.SelectedValue == "WINWIN")
+            {
+                Response.Redirect("WINWIN.aspx");
+            }
+
+            else if (DropDownList1.SelectedValue == "METROPOLCARD")
+            {
+                Response.Redirect("MetropolCard.aspx");
+            }
+
+
         }
     }
 }

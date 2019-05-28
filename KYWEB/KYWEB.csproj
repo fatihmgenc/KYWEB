@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfamız.aspx" />
+    <Content Include="MetropolCard.aspx" />
+    <Content Include="Sodexo.aspx" />
+    <Content Include="TicketCard.aspx" />
+    <Content Include="TicketKupon.aspx" />
     <Content Include="GirisYapma.aspx" />
     <Content Include="images\AltKısım.PNG" />
     <Content Include="images\GirisYap.PNG" />
@@ -75,11 +79,14 @@
     <Content Include="images\UyeOl.PNG" />
     <Content Include="KrediKartıÖdeme.aspx" />
     <Content Include="SepetOnaylamaSayfası.aspx" />
+    <Content Include="Setcard.aspx" />
     <Content Include="StyleKY.css" />
     <Content Include="UyeAnaSayfa.aspx" />
     <Content Include="UyeOlma.aspx" />
     <Content Include="Web.config" />
     <Content Include="OdemeYap.aspx" />
+    <Content Include="Multinet.aspx" />
+    <Content Include="WINWIN.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnaSayfamız.aspx.cs">
@@ -88,6 +95,34 @@
     </Compile>
     <Compile Include="AnaSayfamız.aspx.designer.cs">
       <DependentUpon>AnaSayfamız.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MetropolCard.aspx.cs">
+      <DependentUpon>MetropolCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetropolCard.aspx.designer.cs">
+      <DependentUpon>MetropolCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sodexo.aspx.cs">
+      <DependentUpon>Sodexo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sodexo.aspx.designer.cs">
+      <DependentUpon>Sodexo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TicketCard.aspx.cs">
+      <DependentUpon>TicketCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TicketCard.aspx.designer.cs">
+      <DependentUpon>TicketCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TicketKupon.aspx.cs">
+      <DependentUpon>TicketKupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TicketKupon.aspx.designer.cs">
+      <DependentUpon>TicketKupon.aspx</DependentUpon>
     </Compile>
     <Compile Include="GirisYapma.aspx.cs">
       <DependentUpon>GirisYapma.aspx</DependentUpon>
@@ -118,6 +153,13 @@
     <Compile Include="OdemeYap.aspx.designer.cs">
       <DependentUpon>OdemeYap.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Setcard.aspx.cs">
+      <DependentUpon>Setcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Setcard.aspx.designer.cs">
+      <DependentUpon>Setcard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UyeAnaSayfa.aspx.cs">
       <DependentUpon>UyeAnaSayfa.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -133,6 +175,20 @@
       <DependentUpon>UyeOlma.aspx</DependentUpon>
     </Compile>
     <Compile Include="VeriClass.cs" />
+    <Compile Include="Multinet.aspx.cs">
+      <DependentUpon>Multinet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Multinet.aspx.designer.cs">
+      <DependentUpon>Multinet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WINWIN.aspx.cs">
+      <DependentUpon>WINWIN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WINWIN.aspx.designer.cs">
+      <DependentUpon>WINWIN.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

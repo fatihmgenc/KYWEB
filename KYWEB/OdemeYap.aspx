@@ -72,7 +72,7 @@
                   <asp:ListItem Value="MULTİNET"> MULTİNET </asp:ListItem>
                   <asp:ListItem Value="SETCARD"> SETCARD </asp:ListItem>
                   <asp:ListItem Value="TICKETKUPON"> TICKET KUPON </asp:ListItem>
-                  <asp:ListItem Value="TICKETCARD"> TICKER CARD </asp:ListItem>
+                  <asp:ListItem Value="TICKETCARD"> TICKET CARD </asp:ListItem>
                   <asp:ListItem Value="SODEXOKUPON"> SODEXO KUPON </asp:ListItem>
                   <asp:ListItem Value="WINWIN"> WIN WIN (KUPON) </asp:ListItem>
                   <asp:ListItem Value="METROPOLCARD"> METROPOL CARD </asp:ListItem>
@@ -80,7 +80,7 @@
            </div>
         
         <div id="IlerleDiv" class="row">
-            <asp:Button ID="IlerleButon" CssClass="btnIlerle" Text="İLERİ" runat="server" />
+            <asp:Button ID="IlerleButon" CssClass="btnIlerle" Text="İLERİ" runat="server" OnClick="IlerleButon_Click" />
 
         </div>
              
