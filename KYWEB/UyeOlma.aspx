@@ -164,7 +164,7 @@
   
          <div class="uyeOl"> 
                 
-                            <img  id="AltKisimİmg" src="images/AltKısım.PNG" />
+                            <img  id="AltKisimİmg" src="images/Alt_Kisim.PNG"  style="width:100%;" />
              </div>
     </div>  
     </div>   

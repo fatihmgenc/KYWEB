@@ -41,7 +41,7 @@
                 
             </div>
         <div id="AltKisimDiv" class ="row">
-                        <img src="images/AltKısım.PNG" />
+                        <img src="images/Alt_Kisim.PNG"   style="width:100%;" />
                     </div>
     </form>
 </body>

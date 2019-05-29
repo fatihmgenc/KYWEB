@@ -58,11 +58,14 @@
 #EkmekArasiIcerikResimDiv {
     padding-bottom: 15px;
     padding-top: 5px;
-
+    
+  
 }
 
-#SepeteEkleBtnDiv{
-    height:65px;
+
+
+#SepeteEkleBtnDiv {
+    height: 65px;
 }
 
 #SalataIcerikImgDiv {
@@ -191,3 +194,5 @@
     height: 40px;
     width: 100px;
 }
+
+

@@ -47,7 +47,7 @@
                 </div>
 
                 <div id="EkmekArasiIcerikResimDiv" class="row"> 
-                    <img id="EkmekArasiIcerikResim" src="https://www.kofteciyusuf.com/uploads/pictures/dsc5006_21.03.2015_12_01_33.jpg"  />
+                    <img id="EkmekArasiIcerikResim" src="https://www.kofteciyusuf.com/uploads/pictures/dsc5006_21.03.2015_12_01_33.jpg"  style="width:100%;"  />
                 </div>
             
                 
@@ -68,7 +68,7 @@
 
 
                 <div id="SalataIcerikImgDiv" class="row">
-                    <img id="SalataImg" src="https://www.kofteciyusuf.com/uploads/pictures/salata_23.05.2015_08_21_15.jpg"  />
+                    <img id="SalataImg" src="https://www.kofteciyusuf.com/uploads/pictures/salata_23.05.2015_08_21_15.jpg"    style="width:100%;"/>
                 </div>   
              
                 <div id="SalataDropDownListDiv" class="row">
@@ -87,7 +87,7 @@
 
                 <div id="TrileceIcerikImg" class="row">
 
-                    <img id="TrileceImg" src="https://www.kofteciyusuf.com/uploads/pictures/dsc1739_29.12.2016_12_00_36.jpg"  />
+                    <img id="TrileceImg" src="https://www.kofteciyusuf.com/uploads/pictures/dsc1739_29.12.2016_12_00_36.jpg"    style="width:100%;" />
 
                 </div>
 
@@ -110,7 +110,7 @@
 
                     <div id="AyranIcerikImgDiv" class="row">
 
-                    <img id="AyranImg" src="https://www.kofteciyusuf.com/uploads/pictures/dsc1640_25.05.2015_10_37_20.jpg"  />
+                    <img id="AyranImg" src="https://www.kofteciyusuf.com/uploads/pictures/dsc1640_25.05.2015_10_37_20.jpg"  style="width:100%;" />
                     </div>
                 
                     <div id="AyranDropDownListDiv" class="row">
@@ -123,7 +123,7 @@
                     <asp:Button class="SepeteEkleBtn" runat="server" text="Sepete Ekle" OnClick="SepeteEkleAyran_Click" />
                     </div>
                     <div id="AltKisimDiv" class ="row">
-                        <img src="images/AltKısım.PNG" />
+                        <img src="images/Alt_Kisim.PNG"  style="width:100%;" />
                     </div>
                 
                 

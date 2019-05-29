@@ -68,12 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfamız.aspx" />
+    <Content Include="images\Alt_Kisim.PNG" />
     <Content Include="MetropolCard.aspx" />
     <Content Include="Sodexo.aspx" />
     <Content Include="TicketCard.aspx" />
     <Content Include="TicketKupon.aspx" />
     <Content Include="GirisYapma.aspx" />
-    <Content Include="images\AltKısım.PNG" />
     <Content Include="images\GirisYap.PNG" />
     <Content Include="images\MenuButtun.PNG" />
     <Content Include="images\UyeOl.PNG" />
@@ -192,6 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -65,7 +65,7 @@
     </div>  
      <div class="row">  
    <div class="large-12 columns">  
-  <asp:TextBox ID="parola" runat="server" placeholder="Parolanız"></asp:TextBox>  
+  <asp:TextBox ID="parola" runat="server" placeholder="Parolanız" TextMode="Password"></asp:TextBox>  
    </div>  
     </div>  
       <br /><br />  
@@ -85,7 +85,7 @@
   
          <div class="uyeOl"> 
                 
-                    <img  id="AltKisimİmg" src="images/AltKısım.PNG" />
+                    <img  id="AltKisimİmg" src="images/Alt_Kisim.PNG" />
              </div>
     </div>  
     </div>   
