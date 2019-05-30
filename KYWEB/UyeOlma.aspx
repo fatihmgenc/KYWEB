@@ -83,7 +83,7 @@
         
      <div class="row">  
    <div class="large-1 columns">  
-  <asp:TextBox ID="parola" runat="server" placeholder="Parolanız"></asp:TextBox>  
+  <asp:TextBox ID="parola" runat="server" placeholder="Parolanız" TextMode="Password"></asp:TextBox>  
    </div>  
     </div>  
       <br /><br /> 

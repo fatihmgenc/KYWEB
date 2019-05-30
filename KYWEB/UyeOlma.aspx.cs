@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -16,6 +18,23 @@ namespace KYWEB
 
         protected void UyelikTanimlaBTN_Click(object sender, EventArgs e)
         {
+            
+
+            SqlConnection baglanti;
+            SqlCommand komut;
+
+            string baglanStr = ConfigurationManager.ConnectionStrings["eticaretdbBaglantisi"].ConnectionString;
+            baglanti = new SqlConnection(baglanStr);
+
+            
+
+            komut = new SqlCommand("INSERT INTO KullanıcıBilgileri (KullanıcıAdi, parola) VALUES(@KullanıcıAdi, @parola)", baglanti);
+            komut.Parameters.AddWithValue("@KullanıcıAdi", email.Text);
+            komut.Parameters.AddWithValue("@parola", parola.Text);
+            baglanti.Open();
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            
             Response.Redirect("UyeAnaSayfa.aspx");
         }
     }

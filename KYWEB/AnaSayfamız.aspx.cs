@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace KYWEB
 {
@@ -25,8 +27,17 @@ namespace KYWEB
 
         protected void Page_Load(object sender, EventArgs e)
         {
+           
+            
+
             if (!Page.IsPostBack)
             {
+
+               
+             
+
+
+
                 EKDropDownListil.DataSource = EKArasıList;
 
                 EKDropDownListil.DataBind();
@@ -66,7 +77,9 @@ namespace KYWEB
 
         protected void UyeOlBtn_Click(object sender, EventArgs e)
         {
+            
             Response.Redirect("UyeOlma.aspx");
+            
         }
 
         protected void GirisYapBtn_Click(object sender, EventArgs e)
